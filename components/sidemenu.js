@@ -27,7 +27,7 @@ const SideMenu = (props) => {
             <Modal ref={ele => modal = ele} hasSubmit={false}>
                 <MovieCreateForm handleFormSubmit={handleCreateMovie} />
             </Modal>
-            <div className="list-group">
+            <div className="list-group start-group">
                 {categories.map(category => (
                     <a href="#"
                         onClick={() => props.changeCategory(category.name)}
