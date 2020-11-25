@@ -1,7 +1,7 @@
 # เว็บ Next.js รับข้อมูลผ่าน Endpoint 
  เทคโนโลยีที่ใช้ node + next/reactjs ข้อดีคือ SEO friendly และตอบสนองแบบ Single Page Application โดยไม่ข้อ refresh หน้า
 
-##หลักการสำคัญ
+## หลักการสำคัญ
 1. จ่ายข้อมูล json จาก database ผ่าน node.js ที่อยู่ใน folder ที่ชื่อ server แบบไม่ใช้โครงสร้าง Next.js ที่มีใน folder pages/api/
 
 script จะรันตามข้อมูลด้านล่าง...เวลาสร้าง localhost:3000
